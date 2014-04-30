@@ -17,7 +17,7 @@ For now, you can do the next:
   - Change text size.
 
 
-> To make a default style uncomment the line 5 of stylinggt.js to use 'defaultStyle' funciton.
+> To make a default style, uncomment the line 5 of example.js to use 'defaultStyle' funciton.
 
 [here]: http://stylinggt.azurewebsites.net
 [add Google Translate plugin]: http://translate.google.com/translate_tools
