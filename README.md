@@ -1,4 +1,4 @@
-Dillinger
+Styling.js
 =========
 
 Styling Google Translate website plugin. View preview [here].
