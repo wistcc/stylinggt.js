@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	$("#year").text(new Date().getFullYear());
 	
 	//Set a default style from the beginning
 	//setTimeout( function(){ defaultStyle("http://git-scm.com/images/logo@2x.png", "Default text", "@", "blue"); }, 1000 );
