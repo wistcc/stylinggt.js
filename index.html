@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Styling GT</title> 
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="google-translate-customization" content="cf4fd9d6a9e017d5-7c969e45eba53879-g303b6a4c71095c23-1c"></meta>
+		<link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+		<link href="Site.css" rel="stylesheet">
+		<script type="text/javascript">
+			function googleTranslateElementInit() {
+			new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+			}
+		</script>
+		<script type="text/javascript" src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+		<script type="text/javascript" src="stylinggt.js"></script>
+	</head>
+	
+	<body> 
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="/">Styling Google Translate!</a>
+				</div>
+			</div>
+		</div>	
+		
+		<br><br>
+		
+		<div class="container body-content">			
+			<div class="col-lg-4"></div>
+			<div class="col-lg-2">
+				<div class="col-lg-12" id="google_translate_element"></div>
+			</div>
+			<div class="col-lg-12"></div>
+			
+			<br><br><br><br>
+			
+			<div class="col-lg-1"></div>
+			<div class="col-lg-4">
+				<button id='removeLeftIcon' class="btn btn-default pull-right" id='changeLeftIcon' type="button">Remove Left Icon</button>
+			</div>
+			
+			<div class="col-lg-4">
+				<div class="input-group">
+					<input type="text" id='urlLeftIcon' placeholder="Url of an image"  class="form-control">
+					<span class="input-group-btn">
+						<button class="btn btn-default" id='changeLeftIcon' type="button">Left Icon</button>
+					</span>
+				</div>
+			</div>
+			
+			<div class="col-lg-8"></div>
+			<div class="col-lg-4"></div>
+
+			<br><br>
+			
+			<div class="col-lg-1"></div>
+			<div class="col-lg-4">
+				<div class="input-group">
+					<input type="text" id='centerText'placeholder="e.g: Any text you want"  class="form-control">
+					<span class="input-group-btn">
+						<button class="btn btn-default" id='centerTextButton' type="button">Text Center</button>
+					</span>
+				</div>
+			</div>
+			
+			<div class="col-lg-4">
+				<div class="input-group">
+					<input type="text" id='rightIcon' placeholder="Using 'Alt + number' like ☺ or ↓" class="form-control">
+					<span class="input-group-btn">
+						<button class="btn btn-default" id='changeRightIcon' type="button">Right Icon</button>
+					</span>
+				</div>
+			</div>
+			
+			<div class="col-lg-8"></div>
+			<div class="col-lg-4"></div>
+			
+			<br><br>
+			
+			<div class="col-lg-1"></div>
+			<div class="col-lg-4">
+				<div class="input-group">
+					<input type="text" id='borderColor' placeholder="e.g: blue or #428bca" class="form-control">
+					<span class="input-group-btn">
+						<button class="btn btn-default" id='changeBorderColor' type="button">Border Color</button>
+					</span>
+				</div>
+			</div>
+			
+			<div class="col-lg-4">
+				<div class="input-group">
+					<input type="text" id='backgroundColor' placeholder="e.g: blue or #428bca" class="form-control">
+					<span class="input-group-btn">
+						<button class="btn btn-default" id='changeBackgroundColor' type="button">Background Color</button>
+					</span>
+				</div>
+			</div>
+			
+			<div class="col-lg-8"></div>
+			<div class="col-lg-4"></div>
+			
+			<br><br>
+			
+			<div class="col-lg-1"></div>
+			<div class="col-lg-4">
+				<div class="input-group">
+					<input type="text" id='textColor' placeholder="e.g: blue or #428bca"  class="form-control">
+					<span class="input-group-btn">
+						<button class="btn btn-default" id='changeTextColor' type="button">Text Color</button>
+					</span>
+				</div>
+			</div>
+			
+			<div class="col-lg-4">
+				<div class="input-group">
+					<input type="text" id='textSize' placeholder="e.g: 15px or 5em or large" class="form-control">
+					<span class="input-group-btn">
+						<button class="btn btn-default" id='changeTextSize' type="button">Text Size</button>
+					</span>
+				</div>
+			</div>
+			<div class="btn-toolbar"></div>
+			<hr />
+			<footer>
+				<p>&copy; <span id="year"></span> - Powered by <a href="http://winnercrespo.azurewebsites.net/">Winner Crespo</a></p>
+			</footer>
+		</div>
+	</body>
+</html>
