@@ -2,7 +2,7 @@ $(document).ready(function(){
 	$("#year").text(new Date().getFullYear());
 	
 	//Set a default style from the beginning
-	//setTimeout( function(){ defaultStyle("http://git-scm.com/images/logo@2x.png", "Default text", "@", "blue"); }, 1000 );
+	//setTimeout( function(){ defaultStyle("http://git-scm.com/images/logo@2x.png", "Default text", "@", "blue", "red", "yellow", "25px"); }, 1000 );
 		
 	$("#removeLeftIcon").click(function(){
 		removeLeftIcon();
@@ -37,11 +37,14 @@ $(document).ready(function(){
 	});
 });
 
-function defaultStyle(leftIcon, centerText, rightIcon, borderColor){
+function defaultStyle(leftIcon, centerText, rightIcon, borderColor, backgroundColor, textColor, textSize){
 	changeLeftIcon(leftIcon);
 	changeCenterText(centerText);
 	changeRightIcon(rightIcon);
 	changeBorderColor(borderColor);
+	changeBackgroundColor(backgroundColor);
+	changeTextColor(textColor);
+	changeTextSize(textSize);
 }
 
 function removeLeftIcon(){
