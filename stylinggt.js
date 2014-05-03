@@ -40,14 +40,14 @@ function changeRightIcon(text){
 function changeBorderColor(color){
 	if(color != ''){
 		$("#google_translate_element span").css("border-color", color);
-		$("#google_translate_element div").eq(1).css("cssText", "border-color: " + color + " !important;");
+		$("#google_translate_element div").eq(1).css("border-color", color);
 		$("#borderColor").val('');
 	}
 }
 
 function changeBackgroundColor(color){
 	if(color != ''){
-		$("#google_translate_element div").eq(1).css("cssText", "background-color: " + color + " !important;");
+		$("#google_translate_element div").eq(1).css("background-color", color);
 		$("#backgroundColor").val('');
 	}
 }
