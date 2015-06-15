@@ -3,7 +3,7 @@ Styling.js
 
 Styling Google Translate website plugin. View preview [here].
 
-First, [add Google Translate plugin] to your website and then add Styling.js.
+First, [add Google Translate plugin] to your website and then add Stylinggt.js.
 
 For now, you can do the next:
 
