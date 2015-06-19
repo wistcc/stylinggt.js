@@ -1,3 +1,11 @@
+/* --------------------------------------------------------------------
+ * StylingGT - A Javascript plug-in
+ * Author: Winner Crespo, http://winnercrespo.com
+ * Copyright (c) 2014 Winner Crespo
+ * Licensed under The MIT License (MIT) [http://opensource.org/licenses/MIT]
+ * --------------------------------------------------------------------
+ */
+ 
 function defaultStyle(remove, leftIcon, centerText, rightIcon, borderColor, backgroundColor, textColor, textSize){
 	if(remove){
 		removeLeftIcon();
